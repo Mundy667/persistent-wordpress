@@ -1,0 +1,4 @@
+kubectl create secret generic mysql-pass --from-literal=password=awesomePassword
+kubectl get secrets
+kubectl create namespace test
+kubectl get namespace
