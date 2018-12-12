@@ -3,14 +3,14 @@ Demo a wordpress environment with worpress and mysl database running in kubernet
 provided by NetApp CLoud Volumes ONTAP
 
 ## Pre-Requisistes
-a running instance of Cloud Volumes ONTAP in AWS or Azure
-a running kubernetes cluster in AWS or Azure
-network connectivity between kunbernetes servers and Cloud ONTAP
-trident deployed in the kubernetes cluster
+* a running instance of Cloud Volumes ONTAP in AWS or Azure
+* a running kubernetes cluster in AWS or Azure
+* network connectivity between kunbernetes servers and Cloud ONTAP
+* trident deployed in the kubernetes cluster
 
 ## Demo steps
-run prepare-demo
-create wordpress and mysql pods
-show pv and pvc in namespace test
-show created volumes via Cloud Manager or ssh to ONTAP cluster ip
+* run prepare-demo
+* create wordpress and mysql pods
+* show pv and pvc in namespace test
+* show created volumes via Cloud Manager or ssh to ONTAP cluster ip
 
