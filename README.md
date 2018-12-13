@@ -7,6 +7,7 @@ provided by NetApp CLoud Volumes ONTAP
 * a running kubernetes cluster in AWS or Azure
 * network connectivity between kunbernetes servers and Cloud ONTAP
 * trident deployed in the kubernetes cluster
+* storage class name: cvo-single - if not present create one or edit yaml-files
 
 ## Demo steps
 * run prepare-demo
