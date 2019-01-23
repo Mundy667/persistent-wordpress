@@ -4,6 +4,7 @@ metadata:
   name: wordpress
   labels:
     app: wordpress
+  namespace: test
 spec:
   ports:
     - port: 80
@@ -18,6 +19,7 @@ metadata:
   name: wp-pv-claim
   labels:
     app: wordpress
+  namespace: test
 spec:
   accessModes:
     - ReadWriteOnce
@@ -32,6 +34,7 @@ metadata:
   name: wordpress
   labels:
     app: wordpress
+  namespace: test
 spec:
   selector:
     matchLabels:
