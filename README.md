@@ -15,6 +15,6 @@ provided by NetApp CLoud Volumes ONTAP
 * show pv and pvc in namespace test
 * show mount inside myswl pod: 
 
-```kubectl exec -n test -it wordpress-mysql-565494758-8gbgp -- df -h /var/lib/mysql```
+    ```kubectl exec -n test -it <pod-name> -- df -h /var/lib/mysql```
 * show created volumes via Cloud Manager or ssh to ONTAP cluster ip
 
